@@ -1,0 +1,28 @@
+.main_block {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main_block .analysisResultInfo {
+    margin: 0 auto;
+}
+
+.main_block .analysisResultInfo h2 {
+    text-align: center;
+}
+
+.main_block .analysisResultInfo .chart {
+    display: inline-flex;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.main_block .analysisResultInfo p {
+    padding: 20px auto;
+}
+
+.main_block .analysisResultInfo .statistic_message {
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}

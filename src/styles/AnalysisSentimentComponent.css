@@ -1,0 +1,13 @@
+.processBlock {
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.processBlock * {
+    margin: 20px auto;
+}
+
+.processBlock .processMessage {
+    margin-top: 100px;
+}
