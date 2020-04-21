@@ -111,7 +111,7 @@ class ResultAnalysisSentimentComponent extends React.Component {
                     <h2>Результаты за прошедший год</h2>
                     <div className="chart">
                     <p className="statistic_message">{year_messages_data.map((item) => (
-                        <React.Fragment>
+                        <React.Fragment key={item}>
                             {item}
                             <br/>
                         </React.Fragment>
